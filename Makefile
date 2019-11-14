@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-g -Wall -Wextra -std=c++17
-all: ./main.cpp
-	$(CC) $(CFLAGS) -o gmk ./main.cpp
+all: src/main.cpp
+	$(CC) $(CFLAGS) -o main src/main.cpp
 
 
 .PHONY: clean

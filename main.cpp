@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 
 	int c;
 	int index = 1;
-	while ((c = getopt_long(argc, argv, "hn:i:s:c:d:o", long_options, nullptr)) != -1) {
+	while ((c = getopt_long(argc, argv, "hn:i:s:c:d:b:o", long_options, nullptr)) != -1) {
 		
 		index++;
 
